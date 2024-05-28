@@ -1,0 +1,40 @@
+table, th, td {
+    border: 1px solid red;
+    font-family: monospace;
+    font-size: large;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+    margin: 0 auto;   
+}
+
+thead, td {
+    text-align: left;
+    padding: 8px;
+}
+
+thead {
+    background-color: plum;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: monospace;
+}
+
+h3 {
+    color: blueviolet;
+    text-align: center;
+    font-family: monospace;
+}
+
+.Codename {
+    background-color: beige;
+}
