@@ -1,0 +1,109 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.plane img {
+    display: flex;
+    max-width: 100.4%;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+#company {
+    font-family: "Oswald", sans-serif;
+    font-size: 2rem;
+}
+
+
+
+#state {
+    background-color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+}
+
+#location {
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.people {
+    text-decoration: underline;
+    color: bisque;
+}
+
+
+.crew {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.people{
+    font-size: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blueviolet;
+    margin-bottom: 5%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+    flex-direction: column;
+
+}
+
+.contact {
+    background-color: grey;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
